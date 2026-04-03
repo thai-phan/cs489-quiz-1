@@ -2,6 +2,7 @@ package org.example;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.example.model.Contact;
 
 import java.util.ArrayList;
 import java.util.Comparator;

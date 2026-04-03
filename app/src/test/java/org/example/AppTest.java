@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.model.Contact;
+import org.example.model.EmailAddress;
+import org.example.model.PhoneNumber;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;

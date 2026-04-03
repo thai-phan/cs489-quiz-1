@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.model.Contact;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
