@@ -1,0 +1,24 @@
+Functional Requirements (FR)
+I've categorized these requirements to make them easier to track during your implementation phase.
+
+1. Contact Management (CRUD)
+FR-1.1: Create Contact: The system shall allow the user to create a new contact by providing a first name, last name, company, and job title.
+FR-1.2: Multi-value Entry: The system shall allow a contact to have zero or more phone numbers and zero or more email addresses.
+FR-1.3: Labeled Data: For every phone number or email address added, the system must capture a descriptive label (e.g., "Work," "Personal," "Mobile").
+FR-1.4: Update Contact: The system shall allow the user to select an existing contact and modify any of its fields, including adding/removing/editing specific phone numbers or emails.
+FR-1.5: Delete Contact: The system shall allow the user to permanently remove a contact from the database.
+
+2. Search and Retrieval
+FR-2.1: Global Search: The system shall provide a search function that returns a list of contacts matching a keyword found in the first name, last name, or company fields.
+FR-2.2: View All: The system shall allow the user to list all saved contacts in a summarized format (e.g., just names and titles).
+FR-2.3: Detailed View: The system shall allow the user to select a specific contact from a list to view all associated phone numbers and email addresses.
+
+3. Data Integrity and Merging
+FR-3.1: Duplicate Identification: The system should provide a way to identify potential duplicates (e.g., two contacts with the exact same first and last name).
+FR-3.2: Merge Contacts: The system shall allow the user to merge two existing contacts into one.
+Note: The resulting contact should retain the primary details of one and combine the unique phone numbers and email addresses of both.
+FR-3.3: Input Validation: The system shall validate that names are not empty and that email addresses follow a basic format (e.g., contains an "@" and a ".").
+
+4. Interface Requirements (CLI)
+FR-4.1: Command Menu: The system shall provide a clear text-based menu for navigating between adding, searching, and merging functions.
+FR-4.2: Feedback Loop: The system shall provide confirmation messages after every successful action (e.g., "Contact 'John Doe' successfully deleted").
